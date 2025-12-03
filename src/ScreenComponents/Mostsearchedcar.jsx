@@ -19,8 +19,8 @@ function Mostsearchedcar() {
       <Carousel>
         <CarouselContent>
           {FakeData.CarList.map((Car, index) => (
-            <CarouselItem className="basis-1/4">
-              <CarItem Car={Car} key={index} />
+            <CarouselItem key={index} className="basis-1/4">
+              <CarItem Car={Car} />
             </CarouselItem>
           ))}
         </CarouselContent>

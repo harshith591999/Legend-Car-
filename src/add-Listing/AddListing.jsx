@@ -104,13 +104,15 @@ const AddListing = () => {
           </div>
         </div>
         {/* Car Images */}
-        <UploadImages />
+        <Separator className="my-10" />
+
         <div className="mt-10 flex justify-end">
           <Button type="submit" onClick={(e) => onSubmit(e)}>
             Submit
           </Button>
         </div>
       </form>
+      <UploadImages />
     </div>
   );
 };
